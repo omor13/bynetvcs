@@ -16,6 +16,6 @@ provider "aws" {
 resource "aws_vpc" "example" {
   cidr_block = "192.168.1.0/24"
   tags = {
-    Name = "example_vpc_1"
+    Name = "example_vpc_2"
   }
 }
